@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imgJugador"
+        android:layout_width="100dp"
+        android:layout_height="120dp" />
+
+    <TextView
+        android:id="@+id/nombrejugador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-100dp"
+        android:textColor="@color/white"
+        android:layout_marginStart="105dp"
+        android:text="nombre"
+        android:textAppearance="?attr/textAppearanceHeadline6" />
+
+    <TextView
+        android:id="@+id/posicion"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:layout_marginStart="105dp"
+        android:text="posicion"
+        android:textAppearance="?attr/textAppearanceBody2" />
+
+    <TextView
+        android:id="@+id/equipo"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:textColor="@color/white"
+        android:layout_marginStart="105dp"
+        android:textSize="15dp"
+        android:text="equipo"
+        android:textAppearance="?attr/textAppearanceBody2" />
+
+</LinearLayout>

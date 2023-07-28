@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/sky"
+    tools:context=".views.InfoFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="Los mejores jguadora de la NBA"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/imgbasket"
+        android:scaleType="centerInside"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:text="@string/encuentra_a_tus_jugadores_de_b_squet_favoritos_aqu_y_de_forma_inmediata_podr_s_visualizar_sus_nombres_posiciones_y_equipos"
+        android:textStyle="bold"/>
+
+</LinearLayout>

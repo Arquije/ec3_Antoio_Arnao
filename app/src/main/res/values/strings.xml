@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ec3_dam2_antonio_arnao</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ingrese_email">Ingrese email...</string>
+    <string name="ingrese_su_contrase_a">Ingrese su contraseña...</string>
+    <string name="la_info">La Info</string>
+    <string name="jugadores">Jugadores</string>
+    <string name="favorito">Favorito</string>
+    <string name="encuentra_a_tus_jugadores_de_b_squet_favoritos_aqu_y_de_forma_inmediata_podr_s_visualizar_sus_nombres_posiciones_y_equipos">Encuentra a tus jugadores de básquet favoritos aquí y de forma inmediata podrás visualizar sus nombres posiciones y equipos</string>
+</resources>
